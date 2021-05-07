@@ -24,5 +24,11 @@ namespace BlackMonday
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Media.SystemSounds.Beep.Play();
+            MessageBox.Show("月曜日からは逃れられません");
+        }
     }
 }

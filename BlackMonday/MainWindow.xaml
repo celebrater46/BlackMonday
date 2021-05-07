@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="中止" HorizontalAlignment="Center" Margin="0,255,0,0" VerticalAlignment="Top" Height="58" Width="202" FontSize="18" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,110,0,0" Text="月曜日をダウンロード中……" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="262" FontSize="24"/>
 
     </Grid>
 </Window>
